@@ -1,0 +1,30 @@
+---
+title: "LabBook"
+author: "Sebastian Peña Frias"
+format: docx
+editor: visual
+---
+
+## LabBook
+
+1.  Las secuencias RAW NGS (M1, M2, M3 y M4) se subieron a la plataforma galaxy (<https://usegalaxy.org/>) para analisis de calidad.
+2.  El analisis de calidad arrojó que los read de todas las muestras poseen una calidad en términos aceptables
+3.  Porteriormente se realizó una limpieza de los reads en terminos de calidad y longitud, dejando solo aquellos read de una longitud \>=100 bps y de calidad Phred \>=20.
+4.  
+
+## Running Code
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+1 + 1
+```
+
+You can add options to executable code like this
+
+```{r}
+#| echo: false
+2 * 2
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
